@@ -1,0 +1,146 @@
+header
+{
+	height: 1000px;
+  background-color: black;
+}
+
+.container span{
+  position: absolute;
+  text-transform: uppercase;
+  text-align-last: center;
+  top:50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.titre1{
+  font-size: 60px;
+  font-weight:700; 
+  letter-spacing: 8px;
+  animation: text 3s 1;
+  color: white;
+}
+
+.titre2{
+  font-size: 30px;
+  margin-top: 70px;
+  color:#6ab04c;
+  animation: text 3s 1;
+}
+
+@keyframes text{
+  0%{
+    color: black;
+    margin-top:20px;
+  }
+  30%{
+    letter-spacing: 25px;
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+}
+
+main
+{
+  text-align: center;
+  margin: 130px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 42px;
+  color:white;
+  margin-bottom: 0px;
+}
+
+.grand_titre{
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 35px;
+  color: white;
+}
+
+.container1{
+  width: 100%;
+}
+
+.icons{
+  padding: 60px;
+}
+
+#porte{
+  padding: 30px;
+}
+
+.profile-title {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 8px;
+  text-align: left;
+  color: white;
+}
+
+.title{
+  text-align: left;
+}
+
+.profile-desc {
+  display: inline-block;
+  color: #e0e0e0;
+  margin-bottom: 8px;
+}
+
+.row1{
+  width: 100%;
+  margin:0px 0px 30px 0px;
+  display: flex;
+}
+
+.row{
+  width: 100%;
+  margin:20px 0px 30px 0px;
+}
+
+.presentation
+{
+  line-height: 35px;
+  margin: 15px;
+  width: 33%;
+  background-color: #616161;
+}
+
+.presentation2{
+  margin: 20px;
+}
+
+
+#skill
+{
+  margin-bottom: 5px;
+}
+
+.card-title{
+  font-size: 25px !important;
+  color: white !important;
+}
+
+.card1
+{
+  margin-top: 50px;
+  background-color: #616161;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.carousel-text{
+  color: white;
+}
+
