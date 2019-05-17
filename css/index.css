@@ -139,8 +139,58 @@ h2 {
   padding-right: 30px;
 }
 
+#photoposition{
+  margin-top: 30px;
+}
+
 
 .carousel-text{
   color: white;
 }
 
+.container4{
+  background-color: #616161;
+  width: 100%;
+}
+
+#histoire1{
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+
+#histoire2{
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+
+#trait{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#photo{
+  display: none;
+}
+
+#photo1{
+  display: none;
+}
+
+#superbotton{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#sbooton{
+  background-color: black !important;
+}
+
+.profil{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}

@@ -26,8 +26,10 @@
         <a class="brand-logo">Joubert-Jérémy</a>
       <ul class="right right hide-on-med-and-down">
         <li><a href="./index.html">Accueil</a></li>
+        <li><a href="#presentationmenu">Profil</a></li>
+        <li><a href="#formation">Formations</a></li>
         <li><a href="#competence">Compétences</a></li>
-        <li><a href="#loisir">Intérêts</a></li>
+        <li><a href="#loisir">Loisir</a></li>
         <li><a href="#contacte">Contact</a></li>
       </ul>
     </div>
@@ -35,25 +37,31 @@
       <ul id="sidenav" class="sidenav grey darken-3">
         <li><img src="./images/logo.png"></li>
         <li><a href="./index.html" class="white-text">Accueil</a></li>
-        <li><a href="./competences.html" class="white-text">Compétences</a></li>
-        <li><a href="./interets.html" class="white-text">Intérêts</a></li>
-        <li><a href="./contanct.html" class="white-text">Contact</a></li>
+        <li><a href="#presentationmenu" class="white-text">Profil</a></li>
+        <li><a href="#formation" class="white-text">Formations</a></li>
+        <li><a href="#competence" class="white-text">Compétences</a></li>
+        <li><a href="#loisir" class="white-text">Loisir</a></li>
+        <li><a href="#contacte" class="white-text">Contact</a></li>
       </ul>
       
       <div class="container">
         <span class="titre1">Portefolio de</span>
         <span class="titre2">Jérémy Joubert</span>
       </div>
+      <ul id="superbotton">
+        <li><a href="#profilhistoirer" class="btn-floating btn-large waves-effect waves-light red" id="sbooton"><i class="material-icons large">keyboard_arrow_down</i></a></li>
+      </ul>
 	</header>
 
   <main>
     <!--Présentation-->
-      <div class="container1">
+    <div class="section scrollspy" id="profilhistoirer">
+      <div class="container1 section scrollspy" id="presentationmenu">
         <h1>Ma présentation</h1>
         <div class="row">
           <div class="presentation col s12" id="porte">
             <div class="col l6 m12 s12 center">
-              <img class="profil" src="./images/profil.png">
+              <img class="profil" src="./images/profil.jpg">
               <div class="icons">
                 <div class="col s3"><a href="#" class="pure-button button-socicon"><span class="socicon socicon-facebook grey-text text-light-1"></span></a></div>
                 <div class="col s3"><a href="#" class="pure-button button-socicon"><span class="socicon socicon-twitter grey-text text-light-1"></span></a></div>
@@ -70,7 +78,10 @@
                   <li class="title"><span class="profile-title">Adress :</span><span class="profile-desc">Pérols</span></li>
                   <li class="title"><span class="profile-title">Email :</span><span class="profile-desc">1christophejoubert@gmail.com</span></li>
                   <li class="title"><span class="profile-title">Téléphone :</span><span class="profile-desc">06 95 02 74 03</span></li>
-                  <li class="bouton center"><a class="waves-effect waves-red  orange btn" href="./contanct.html">Me contacter</a></li>
+                  <li class="bouton center">
+                    <a class="waves-effect waves-red  yellow darken-4 btn" href="#contacte">Me contacter</a>
+                    <a class="waves-effect waves-red  yellow darken-4 btn" href="./CV jeremy Joubert.pdf">Télécharger mon CV</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -78,19 +89,48 @@
         </div>
       </div>
 
+    <!--histoire-->
+    <h1>Mon histoire</h1>
+    <div class="container4">
+      <div class="row">
+        <div class="col l6 s12" id="histoire1">
+          <p>Pour mieux me comprendre, je voudrais partager avec vous, mon Histoire personnelle.</p>
+          <p>J'ai passé mon enfance à Pérols qui est une petite ville entre Montpellier et la mer. J'affectionne particulièrement cette ville car j'ai grandi à Pérols. J'ai eu une enfance normale, même si j'habite à Pérols j'ai passé toute ma scolarité à Montpellier après avoir obtenu mon brevet j'ai passé mon bac STI2D à Saint Joseph Pierre Rouge à Montferrier-sur-lez. C'est là que je me suis de plus en plus intéressé à l'informatique.</p>
+        </div>
+        <div class="col l6 s12" id="histoire2">
+          <p>Avec les études j'ai pratiqué beaucoup de sport : j'ai commencé par 7 ans de karaté de mes 6 à 13 ans ou j'ai obtenu la ceinture marron puis de 14 à 18 ans j'ai pratiqué la nation. Mais le sport qui ma le plus apporté reste la musculation que je pratique depuis 15 ans et dont je continue à exercer.</p>
+          <p>Après mon bac j'ai décidé d'aller en IUT informatique et j'espère pouvoir continues mes études dans ce milieu.</p>
+        </div>
+        <div class="bouton l6">
+          <a href="./images/S1-JOUBERT-Jérémy-NuageDeMots.png" class="waves-effect waves-red  yellow darken-4 btn" id="nuage">Nuage de mot</a>
+          <a href="./images/S1-JOUBERT-Jérémy-CarteMental.jpg" class="waves-effect waves-red  yellow darken-4 btn" id="cartemental">Carte mental</a>
+        </div>
+        <div class="col s12" id="trait"><hr width="75%" color="white"></div>
+      </div>
+    </div>
+  </div>
+
+    <!--
+    <img id="photo" src="./images/S1-JOUBERT-Jérémy-NuageDeMots.png">
+    <img id="photo1" src="./images/S1-JOUBERT-Jérémy-CarteMental.jpg">
+    <--
+
     <!--Formation-->
-  <h1>Formations</h1>
-  <div class="carousel" id="formation">
-    <a class="carousel-item" href="#one!"><ul><li><i class="large material-icons white-text">directions_car</i></li><li><span class="carousel-text">Permis B</span></li></ul></a>
-    <a class="carousel-item" href="#two!"><ul><li><i class="large material-icons white-text">school</i></li><li><span class="carousel-text">Bac STI2D</span></li></ul></a>
-    <a class="carousel-item" href="#three!"><ul><li><i class="large material-icons white-text">laptop_windows</i></li><li><span class="carousel-text">IUT Info</span></li></ul></a>
-    <a class="carousel-item" href="#four!"><ul><li><i class="large material-icons white-text">directions_boat</i></li><li><span class="carousel-text">Permis côtier</span></li></ul></a>
-    <a class="carousel-item" href="#five!"><ul><li><i class="large material-icons white-text">school</i></li><li><span class="carousel-text">Brevet</span></li></ul></a>
+  <div class="scrollspy" id="formation">
+    <h1>Formations</h1>
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"><ul><li><i class="large material-icons white-text">directions_car</i></li><li><span class="carousel-text">Permis B</span></li></ul></a>
+      <a class="carousel-item" href="#two!"><ul><li><i class="large material-icons white-text">school</i></li><li><span class="carousel-text">Bac STI2D</span></li></ul></a>
+      <a class="carousel-item" href="#three!"><ul><li><i class="large material-icons white-text">laptop_windows</i></li><li><span class="carousel-text">IUT Info</span></li></ul></a>
+      <a class="carousel-item" href="#four!"><ul><li><i class="large material-icons white-text">directions_boat</i></li><li><span class="carousel-text">Permis côtier</span></li></ul></a>
+      <a class="carousel-item" href="#five!"><ul><li><i class="large material-icons white-text">school</i></li><li><span class="carousel-text">Brevet</span></li></ul></a>
+    </div>
   </div>
   <!--Compétence-->
- 
+  
+  <div class="section scrollspy" id="competence">
   <h1 class="grand_titre">Mes compétences</h1>
-  <div class="row1" id="competence">
+  <div class="row1">
 
     <div class="presentation">
       <h1>Compétences Scolaires</h1>
@@ -165,10 +205,11 @@
       </div>
     </div>
   </div>
+  </div>
 
 
   <!--loisir-->
-    <div class="row" id="loisir">
+    <div class="row section scrollspy" id="loisir">
       <h1 class="grand_titre">Mes loisir</h1>
       <div class="col s12 m6 l4">
       <div class="card">
@@ -177,8 +218,7 @@
           <span class="card-title">Musculation</span>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          <p>Je pratique la musculation depuis mes 15 ans, j'ai voulu commencer ce sport pour me sentir mieux physiquement mais sa ma apport également confiance en moi.</p>
         </div>
       </div>
       </div>
@@ -190,8 +230,7 @@
           <span class="card-title">Programmation</span>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          <p>J'ai découvert la programmation en jouant à des jeux vidéo comme Minecraft mais avec mes études j'ai de plus en plus aimé la programmation.</p>
         </div>
       </div>
       </div>
@@ -203,8 +242,7 @@
           <span class="card-title">Voyager</span>
         </div>
         <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          <p>Depuis petit j'ai eu la chance d'avoir des parents qui aime voyager cela m'a permis de découvrir de nombreux pays(Mexique, Guadeloupe, Île Maurice et le Canada). </p>
         </div>
       </div>
     </div>
@@ -213,12 +251,12 @@
 
 
   <!--me contacter-->
-  <div>
+  <div class="section scrollspy" id="contacte">
   <h1 class="grand_titre">Me contacter</h1>
-  <div class="card1" id="contacte">
+  <div class="card1">
       <div class="card-content center">
         <div class="row">
-          <form class="col s12">
+          <form class="col l6 s12">
             <div class="row">
               <div class="input-field col s6">
                 <input id="first_name" type="text" class="validate">
@@ -242,28 +280,15 @@
               </div>
             </div>
           </form>
+          <div class="col l6 s12" id="photoposition">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.8374886844986!2d3.9445944511697033!3d43.568269279021884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6bad566cad0e7%3A0x4a76360865e25359!2sJoubert+et+Fils!5e0!3m2!1sfr!2sfr!4v1558020845333!5m2!1sfr!2sfr" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
         </div>
-        <a class="waves-effect waves-red  orange btn ">Envoyer</a>
+        <a class="waves-effect waves-red  orange btn" id="Envoyer">Envoyer<i class="material-icons right">send</i></a>
       </div>
     </div>
   </div>
   </main>
-
-
-
-  <!-- scrip-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script>
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
-      });
-  </script>
-     
-  <!--particles js file-->
-  <script type="text/javascript" src="js/carrousel.js"></script>
-  <script type="text/javascript" src="js/particles.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
 
   <footer class="page-footer">
           <div class="container">
@@ -277,10 +302,69 @@
           <div class="footer-copyright">
             <div class="container">
             © 2018 Copyright 
-            <a class="grey-text text-lighten-4 right" href="#!">Me contacter</a>
+            <a class="grey-text text-lighten-4 right" href="#!">Me contacter<i class="material-icons right">send</i></a>
             </div>
           </div>
   </footer>
+
+
+
+  <!-- scrip-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+  </script>
+
+  <!--Photo
+  <script>
+  $(document).ready(function(){
+    $( "#nuage" ).click(function() {
+      $("#photo").css("display","block");
+      alert("click sur le bouton nuage de mot pour fermer");
+      $( "#nuage" ).click(function() {
+        $("#photo").css("display","none");      
+      });
+    });
+  });
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    $( "#cartemental" ).click(function() {
+      $("#photo1").css("display","block");
+      alert("click sur le bouton carte mental pour fermer");
+      $( "#cartemental" ).click(function() {
+        $("#photo1").css("display","none");      
+      });
+    });
+  });
+  </script>
+-->
+
+  <!--envoi-->
+  <script>
+    $(document).ready(function(){
+      $( "#Envoyer" ).click(function() {
+        alert("Message envoyer")
+      });
+    });
+  </script>
+
+  <!--scrollSpy -->
+  <script>
+    $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
+  </script>
+     
+  <!--particles js file-->
+  <script type="text/javascript" src="js/carrousel.js"></script>
+  <script type="text/javascript" src="js/particles.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
 </body>
 
 </html>
